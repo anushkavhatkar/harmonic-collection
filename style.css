@@ -26,3 +26,7 @@
     font-style: italic;
 }
 
+#background {
+    color: #FFFAFA;
+    border-top: 0.5px solid black;
+}
