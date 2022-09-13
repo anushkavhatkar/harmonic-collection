@@ -15,7 +15,7 @@
     font-weight: 400;
     font-style: normal;
     position:relative;
-    left: 1000px;
+    left: 900px;
     bottom: 50px;
 }
 
@@ -27,6 +27,22 @@
 }
 
 #background {
-    color: #FFFAFA;
+    background-color: #FFFAFA;
     border-top: 0.5px solid black;
+}
+
+#heading2 {
+    color: black;
+    font-size: 20px;
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.italic-heading2 {
+    color: black;
+    font-size: 20px;
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: italic;
 }
