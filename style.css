@@ -1,6 +1,15 @@
 .heading {
     color: #DB2F32; 
     text-align: center;
-    font-size: 75px;
-    font-family: 'bd-supper', sans-serif;
+    font-family: bd-supper, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.name { 
+    color:black;
+    font-size: 18px;
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: normal;
 }
