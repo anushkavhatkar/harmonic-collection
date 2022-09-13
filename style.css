@@ -71,6 +71,10 @@
     left:450px;
 }
 
+.leftcenterimage { 
+    position:relative;
+    left:350px;
+}
 
 .foot {
     background-color: #FFFAFA; 
