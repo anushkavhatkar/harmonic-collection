@@ -52,17 +52,11 @@
     font-style: italic;
 }
 
-.flex-parent-1 {
-    display: flex;
-    width: 50%;
+.parent-1 { 
+    text-align: center;
 }
 
-.flex-child-image-1 { 
-    flex: 1;
-    margin: 10rem;
-}
-
-.flex-child-textbox-1 {
-    flex: 2; 
-    margin-right:10px;
+.child-1 {
+    display: inline-block;
+    vertical-align: auto;
 }
