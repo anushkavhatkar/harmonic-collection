@@ -62,8 +62,8 @@ float: left;
 
 
 a:link { color: cornflowerblue;} 
-a:hover { color: fuchsia; }
 a:visited { color: blue; }
+a:hover { color: fuchsia; }
 
 .underline { 
     text-decoration: none;
@@ -74,5 +74,4 @@ a:visited { color: blue; }
     margin-left: 500px;
     padding: 20px;
     margin-right: initial;
-
 }
