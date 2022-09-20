@@ -61,7 +61,7 @@ float: left;
     margin: 30px;
 
 
-a:link { color: cornflowerblue;} 
+a:link { color: cornflowerblue; } 
 a:visited { color: blue; }
 a:hover { color: fuchsia; }
 
@@ -75,3 +75,4 @@ a:hover { color: fuchsia; }
     padding: 20px;
     margin-right: initial;
 }
+
