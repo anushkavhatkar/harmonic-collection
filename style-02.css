@@ -76,3 +76,15 @@ a:hover { color: fuchsia; }
     margin-right: initial;
 }
 
+.float-rightt { 
+    float: right;
+}
+
+.section-04 {
+    color: black;
+    font-size: 20px;   
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: normal; 
+    float: left;
+}
