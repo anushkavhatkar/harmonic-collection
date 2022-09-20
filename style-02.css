@@ -45,7 +45,6 @@ float: left;
     font-family: adobe-caslon-pro, serif;
     font-weight: 400;
     font-style: normal; 
-    margin-left: 400px;
     float: right;
 }
 
@@ -59,13 +58,21 @@ float: left;
     border-width: 1px;
     border-style: solid;
     padding: 0.75em;
-    margin-top: 20px;
+    margin: 30px;
 
-    a:link { color: cornflowerblue;} 
-    a:hover { color: fuchsia; }
-    a:visited { color: blue; }
+
+a:link { color: cornflowerblue;} 
+a:hover { color: fuchsia; }
+a:visited { color: blue; }
 
 .underline { 
     text-decoration: none;
     border-bottom: cornflowerblue 0.1em dotted;
+}
+
+.float-right {
+    margin-left: 500px;
+    padding: 20px;
+    margin-right: initial;
+
 }
