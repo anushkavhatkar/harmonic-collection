@@ -1,0 +1,9 @@
+body {
+    background-color: rgba(100, 149, 237, 0.15);
+}
+
+.wrapper { 
+    margin: 0 auto;
+    width: 80vw;
+}
+

@@ -20,7 +20,7 @@
 }
 
 .italic-name  {
-    color:black
+    color:black;
     font-family: "adobe-caslon-pro", serif;
     font-weight: 400;
     font-style: italic;
