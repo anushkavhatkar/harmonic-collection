@@ -35,11 +35,11 @@ span {
     font-style: italic;
 }
 
-.section-01 {
+.float-left {
 float: left;
 }
 
-.section-02 {
+.section-01 {
     color: black;
     font-size: 20px;   
     font-family: adobe-caslon-pro, serif;
@@ -47,9 +47,25 @@ float: left;
     font-style: normal; 
     margin-left: 400px;
     float: right;
-    margin-top: 75px;
 }
 
 .clearfix {
     overflow: auto;
+}
+
+.images {
+    border-color: cornflowerblue;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0.75em;
+    margin-top: 20px;
+
+    a:link { color: cornflowerblue;} 
+    a:hover { color: fuchsia; }
+    a:visited { color: blue; }
+
+.underline { 
+    text-decoration: none;
+    border-bottom: cornflowerblue 0.1em dotted;
 }
