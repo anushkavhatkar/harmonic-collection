@@ -88,3 +88,9 @@ float: left;
 a:link { color: cornflowerblue;}
 a:visited { color: blue;}
 a:hover { color: fuchsia; }
+
+div:after {
+    clear:both;
+    content: '';
+    display: block;
+}
