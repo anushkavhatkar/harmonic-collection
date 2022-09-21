@@ -59,13 +59,9 @@ float: left;
     border-style: solid;
     padding: 0.75em;
     margin: 30px;
+}
 
-
-a:link { color: cornflowerblue; } 
-a:visited { color: blue; }
-a:hover { color: fuchsia; }
-
-.underline { 
+    .underline { 
     text-decoration: none;
     border-bottom: cornflowerblue 0.1em dotted;
 }
@@ -89,3 +85,6 @@ a:hover { color: fuchsia; }
     float: left;
 }
 
+a:link { color: cornflowerblue;}
+a:visited { color: blue;}
+a:hover { color: fuchsia; }
