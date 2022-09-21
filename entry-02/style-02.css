@@ -94,3 +94,18 @@ div:after {
     content: '';
     display: block;
 }
+
+.common-title {
+    font-family: bd-supper, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #A5C8D1;
+    font-size: 90px;
+    width: 100vw;
+    margin: 0 auto;
+    letter-spacing: -7px;  
+    position: fixed;
+    bottom: -5px;
+    left: 0px;
+    right: 0px;
+}
