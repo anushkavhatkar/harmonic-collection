@@ -67,3 +67,9 @@ span {
     flex: 2;
     padding: 2em;
 }
+.section-02 {
+    max-width: 80vw;
+    padding: 2em;
+    display: flex;
+}
+
