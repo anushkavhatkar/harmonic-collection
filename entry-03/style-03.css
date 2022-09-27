@@ -73,3 +73,14 @@ span {
     display: flex;
 }
 
+.lead-square {
+    width: 15em;
+    height: 30em;
+    background-color: white;
+    flex: 1.25;
+    padding: 2em;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: #CACBCA;
+}
