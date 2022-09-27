@@ -29,3 +29,18 @@ body {
     top: 0px;
     color: #D9EBB5;
 }
+
+.body-text {
+    color: black;
+    font-size: 20px;   
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+span {
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
