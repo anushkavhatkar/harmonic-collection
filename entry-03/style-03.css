@@ -28,7 +28,7 @@ body {
     bottom: 0px;
     top: 0px;
     color: #D9EBB5;
-    text-overflow: clip;
+    text-overflow: ellipsis;
 }
 
 .body-text {
@@ -76,10 +76,10 @@ span {
 }
 
 .lead-square {
-    width: 15em;
-    height: 30em;
+    width: 12em;
+    height: 36em;
     background-color: white;
-    flex: 1.25;
+    flex: 1;
     padding: 2em;
     border-radius: 0.5em;
     border-style: solid;
@@ -89,7 +89,7 @@ span {
 
 .lead-text {
     flex: 1;
-    padding: 0 2em 0 2em;
+    padding: 0 2em 0 0;
 }
 
 
