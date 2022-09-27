@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Cardinal-Photo-Medium-Italic";
+    src: url(/fonts/cardinalphoto-mediumitalic-TRIAL.otf) format('opentype');
+        
+}
+
+body {
+    background-color: rgba(236, 240, 228, 0.62);
+}
+
+.wrapper { 
+    margin: 0 auto;
+    width: 80vw;
+}
+
