@@ -84,3 +84,8 @@ span {
     border-width: 0.1em;
     border-color: #CACBCA;
 }
+
+.lead-text {
+    flex: 1;
+    padding: 0 2em 0 2em;
+}
