@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Cardinal-Photo-Medium-Italic";
-    src: url(/fonts/cardinalphoto-mediumitalic-TRIAL.otf) format('opentype');
+    src: url(../fonts/cardinalphoto-mediumitalic-TRIAL.otf) format('opentype');
         
 }
 
 @font-face {
     font-family: "Cardinal-Photo-Italic";
-    src: url(/fonts/cardinalphoto-italic-TRIAL.otf) format('opentype'); 
+    src: url(../fonts/cardinalphoto-italic-TRIAL.otf) format('opentype'); 
 }
 
 body {
