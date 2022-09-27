@@ -44,3 +44,21 @@ span {
     font-style: italic;
 }
 
+.section-01 { 
+    max-width: 80vw;
+    padding: 2em;
+    display: flex;
+}
+
+.radium-square {
+    width: 10em;
+    height: 22em;
+    background-color: #25E721;
+    flex: 1;
+    padding: 2em;
+}
+
+.radium-text {
+    flex: 2;
+    padding: 2em;
+}
