@@ -4,6 +4,11 @@
         
 }
 
+@font-face {
+    font-family: "Cardinal-Photo-Italic";
+    src: url(/fonts/cardinalphoto-italic-TRIAL.otf) format('opentype'); 
+}
+
 body {
     background-color: rgba(236, 240, 228, 0.62);
 }
@@ -13,3 +18,14 @@ body {
     width: 80vw;
 }
 
+.love-letters {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-family: "Cardinal-Photo-Italic";
+    font-size: 100px;
+    position: fixed;
+    right: -25px;
+    bottom: 0px;
+    top: 0px;
+    color: #D9EBB5;
+}
