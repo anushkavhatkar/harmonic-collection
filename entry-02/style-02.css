@@ -62,8 +62,8 @@ float: left;
 }
 
     .underline { 
-    text-decoration: none;
-    border-bottom: cornflowerblue 0.1em dotted;
+    text-decoration: underline dotted cornflowerblue;
+    /* border-bottom: cornflowerblue 0.1em dotted; underline works better*/
 }
 
 .float-right {
