@@ -1,0 +1,12 @@
+:root {
+    --font-size: 16px;
+    --spacing: 20px;
+}
+
+@media (min-width: 400px) {
+    :root {
+        --font-size: 20px;
+        --spacing: 30px;
+    }
+}
+
