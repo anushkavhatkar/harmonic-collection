@@ -11,7 +11,7 @@
 }
 
 
-/* fonts */
+/* FONTS */
 
 @font-face {
     font-family: "Karrik-Regular";
@@ -27,6 +27,7 @@
 
 
 /* content */
+/* CONTENT/ STRUCTURE */
 
 body {
     font-size: var(--font-size);
