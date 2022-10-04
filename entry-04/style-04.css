@@ -40,18 +40,21 @@ p {
 
 /* CLASSES */
 
-.header {
+.collection {
     width: 100vw;
     height: 2em;
     background-color: #E8E8DD;
-    border-bottom: 0.5em solid black;
+    border-bottom: 0.05em solid black;
+    position: fixed;
+    top: 0em;
 }
 
-.header-text {
+.collection-title {
     font-family: "Avara-Italic";
     color: #FC010A;
     font-size: 20px;
     text-align: center;
+    padding-top: 0.25em;
 }
 
 .body {
