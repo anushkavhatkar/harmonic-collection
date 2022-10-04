@@ -4,12 +4,9 @@
     --bg-color: #eeeee4; 
 }
 
-@media (min-width: 300px) {
-    body {
 @media (min-width: 400px) {
     p {
         font-size: 20px;
-        background-color: #D9EBB5;
     }
 }
 
