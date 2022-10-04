@@ -64,3 +64,17 @@ p {
     margin: 2em auto 0 auto;
     width: 90vw;
 }
+
+.circle {
+    background: var(--pink);
+    border-radius: 50%;
+    width: 15em;
+    height: 15em;
+    margin-top: 2em;
+}
+
+
+
+
+
+/* FIN */ 
