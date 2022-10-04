@@ -3,10 +3,33 @@
     --spacing: 20px;
 }
 
-@media (min-width: 400px) {
-    :root {
-        --font-size: 20px;
-        --spacing: 30px;
+@media (min-width: 300px) {
+    body {
+        font-size: 20px;
+        background-color: #D9EBB5;
     }
+}
+
+
+/* fonts */
+
+@font-face {
+    font-family: "Karrik-Regular";
+    src: url(../fonts/Karrik-Regular.otf) format('opentype');
+        
+}
+
+@font-face {
+    font-family: "Avara-Italic";
+    src: url(../fonts/Avara-BoldItalic.otf) format('opentype');
+        
+}
+
+
+/* content */
+
+body {
+    font-size: var(--font-size);
+
 }
 
