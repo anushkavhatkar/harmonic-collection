@@ -2,6 +2,8 @@
     --font-size: 16px;
     --spacing: 20px;
     --bg-color: #eeeee4; 
+    --pink: #E25BC1;
+    --blue: #9BB4D9;
 }
 
 @media (min-width: 400px) {
