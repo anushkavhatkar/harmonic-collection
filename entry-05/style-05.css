@@ -19,17 +19,11 @@
 
 /* FONTS */
 
-@font-face {
-    font-family: "Karrik-Regular";
-    src: url(../fonts/Karrik-Regular.otf) format('opentype');
-        
-}
+@font-face { font-family: "Karrik-Regular";
+    src: url(../fonts/Karrik-Regular.otf) format('opentype'); }
 
-@font-face {
-    font-family: "Avara-Italic";
-    src: url(../fonts/Avara-BoldItalic.otf) format('opentype');
-        
-}
+@font-face { font-family: "Avara-Italic";
+    src: url(../fonts/Avara-BoldItalic.otf) format('opentype');}
 
 
 
@@ -43,9 +37,10 @@ aside { padding: var(--spacing); }
 section { padding: var(--spacing);} 
 
 section:nth-child(3) { background-color: var(--purple); }
-section:nth-child(4){ background-color: var(--lime); }
+section:nth-child(4) { background-color: var(--lime); }
 section:nth-child(5) { background-color: var(--purple); }
 section:nth-child(6) { background-color: var(--orange); }
+
 
 
 /* aside, section, nav, footer, header */
