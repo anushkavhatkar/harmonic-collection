@@ -1,6 +1,7 @@
 :root { 
     --font-size: 16px;
     --spacing: 10px; 
+    --fig-caption: 12px;
     --purple: #CE96C9; 
     --off-white: #E4E5DB; 
     --red: #F90C01;
@@ -13,6 +14,7 @@
 :root { 
     --font-size: 20px;
     --spacing: calc(var(--spacing) * 1.6); 
+    --fig-caption: 14px; 
     } 
 }
 
@@ -58,6 +60,14 @@ h1 { font-size: calc(var(--font-size) * 1.5);
 
  p { font-family: 'Karrik-Regular'; }
 
+figcaption { font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--fig-caption); }
 
+.figcaption-italic { font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: italic; 
+    font-size: var(--fig-caption) ;}
 
 
