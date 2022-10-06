@@ -57,6 +57,11 @@ img { border-width: 2px;
 
 
 
+span { font-family: adobe-caslon-pro, serif;
+        font-weight: 400;
+        font-style: italic; 
+        font-size: var(--fig-caption); }
+
 
 /* TREATMENTS */
 
