@@ -54,7 +54,7 @@ h1 { font-size: calc(var(--font-size) * 1.5);
     text-align: center;
     padding: var(--spacing); }
 
- p { font-family: 'Karrik-Regular'; }
+p { font-family: 'Karrik-Regular'; }
 
 figcaption { font-family: adobe-caslon-pro, serif;
     font-weight: 400;
