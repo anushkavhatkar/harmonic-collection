@@ -78,7 +78,9 @@ p { font-family: 'Karrik-Regular';
 figcaption { font-family: adobe-caslon-pro, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: var(--fig-caption); }
+    font-size: var(--fig-caption); 
+    margin-top: 0; 
+    margin-bottom: var(--spacing); }
 
 
 
