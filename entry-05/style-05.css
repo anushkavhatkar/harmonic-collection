@@ -8,6 +8,15 @@
     --lime: #C6DD09; 
     
 }
+
+@media (min-width: 375px) {
+:root { 
+    --font-size: 20px;
+    --spacing: 36px; 
+    } 
+}
+
+
 /* FONTS */
 
 @font-face {
