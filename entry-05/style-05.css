@@ -16,6 +16,8 @@
     --spacing: 25px;
     --fig-caption: 14px; 
     } 
+
+    p { max-width: 75ch; }
 }
 
 
@@ -59,7 +61,8 @@ h1 { font-size: calc(var(--font-size) * 1.5);
     text-align: center;
     padding: var(--spacing); }
 
-p { font-family: 'Karrik-Regular'; }
+p { font-family: 'Karrik-Regular'; 
+    max-width: 40ch; }
 
 figcaption { font-family: adobe-caslon-pro, serif;
     font-weight: 400;
