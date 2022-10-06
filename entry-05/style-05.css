@@ -36,8 +36,14 @@
 /* STRUCTURE + CONTENT */
 
 
-section:not(:first-child) 
-    { padding: var(--spacing);}
+body { background-color: var(--off-white); }
+
+section { padding: var(--spacing);} 
+
+section:first-child { background-color: var(--purple); }
+section:nth-child(2){ background-color: var(--lime); }
+section:nth-child(3) { background-color: var(--purple); }
+section:nth-child(4) { background-color: var(--orange); }
 
 
 /* aside, section, nav, footer, header */
