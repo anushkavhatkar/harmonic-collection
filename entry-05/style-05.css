@@ -13,7 +13,7 @@
 @media (min-width: 390px) {
 :root { 
     --font-size: 20px;
-    --spacing: calc(var(--spacing) * 1.6); 
+    --spacing: calc(var(--spacing) * 1.6);
     --fig-caption: 14px; 
     } 
 }
