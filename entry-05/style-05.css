@@ -50,8 +50,12 @@ section:nth-child(4) { background-color: var(--lime); }
 section:nth-child(5) { background-color: var(--purple); }
 section:nth-child(6) { background-color: var(--orange); }
 
-img { border-width: 2px;
-      border-style: dashed; }
+img { border-width: 2px; 
+    border-style: dashed; 
+    margin: var(--spacing) var(--spacing) 0 var(--spacing); 
+    max-width: 360px; }
+
+
 
 
 /* TREATMENTS */
