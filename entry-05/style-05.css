@@ -45,6 +45,8 @@ section:nth-child(4) { background-color: var(--lime); }
 section:nth-child(5) { background-color: var(--purple); }
 section:nth-child(6) { background-color: var(--orange); }
 
+img { border-width: 2px;
+      border-style: dashed; }
 
 
 /* TREATMENTS */
@@ -65,5 +67,11 @@ figcaption { font-family: adobe-caslon-pro, serif;
     font-weight: 400;
     font-style: italic; 
     font-size: var(--fig-caption) ;}
+.border-purple { border-color: var(--purple); }
+.border-off-white { border-color: var(--off-white); }
+.border-orange { border-color: var(--orange); }
+.border-lime { border-color: var(--lime); }
+
+
 
 
