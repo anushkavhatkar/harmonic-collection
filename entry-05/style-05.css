@@ -66,7 +66,8 @@ figcaption { font-family: adobe-caslon-pro, serif;
 .figcaption-italic { font-family: adobe-caslon-pro, serif;
     font-weight: 400;
     font-style: italic; 
-    font-size: var(--fig-caption) ;}
+    font-size: var(--fig-caption); }
+
 .border-purple { border-color: var(--purple); }
 .border-off-white { border-color: var(--off-white); }
 .border-orange { border-color: var(--orange); }
