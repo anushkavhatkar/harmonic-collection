@@ -35,3 +35,7 @@
 
 /* STRUCTURE + CONTENT */
 
+/* TREATMENTS */
+
+h1 { font-size: calc(var(--font-size) * 2); }
+
