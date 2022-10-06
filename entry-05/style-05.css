@@ -1,6 +1,6 @@
 :root { 
     --font-size: 16px;
-    --spacing: 10px; 
+    --spacing: 15px; 
     --fig-caption: 12px;
     --purple: #CE96C9; 
     --off-white: #E4E5DB; 
@@ -13,7 +13,7 @@
 @media (min-width: 390px) {
 :root { 
     --font-size: 20px;
-    --spacing: calc(var(--spacing) * 1.6);
+    --spacing: 25px;
     --fig-caption: 14px; 
     } 
 }
