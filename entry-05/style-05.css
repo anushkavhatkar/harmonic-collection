@@ -35,6 +35,14 @@
 
 /* STRUCTURE + CONTENT */
 
+
+section:not(:first-child) 
+    { padding: var(--spacing);}
+
+
+/* aside, section, nav, footer, header */
+
+
 /* TREATMENTS */
 
 h1 { font-size: calc(var(--font-size) * 2); }
