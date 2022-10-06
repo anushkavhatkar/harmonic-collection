@@ -44,7 +44,8 @@ body { background-color: var(--off-white);
 
 aside { padding: var(--spacing); }
 
-section { padding: var(--spacing);} 
+section { padding: var(--margins) var(--spacing) var(--margins) var(--spacing); }
+
 
 section:nth-child(3) { background-color: var(--purple); }
 section:nth-child(4) { background-color: var(--lime); }
