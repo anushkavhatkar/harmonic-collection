@@ -44,7 +44,8 @@ body { background-color: var(--off-white);
 
 aside { padding: var(--spacing); }
 
-section { padding: var(--margins) var(--spacing) var(--margins) var(--spacing); }
+section { padding: var(--margins) var(--spacing) var(--margins) var(--spacing); 
+          width: 100%; }
 
 
 section:nth-child(3) { background-color: var(--purple); }
@@ -54,8 +55,9 @@ section:nth-child(6) { background-color: var(--orange); }
 
 img { border-width: 2px; 
     border-style: dashed; 
-    margin: var(--spacing) var(--spacing) 0 var(--spacing); 
-    max-width: 360px; }
+    margin: var(--spacing); 
+    margin-bottom: 0;
+    max-width: 360px;  }
 
 
 
@@ -80,7 +82,8 @@ figcaption { font-family: adobe-caslon-pro, serif;
     font-style: normal;
     font-size: var(--fig-caption); 
     margin-top: 0; 
-    margin-bottom: var(--spacing); }
+    margin-bottom: var(--spacing);
+    line-height: 120%; }
 
 
 
