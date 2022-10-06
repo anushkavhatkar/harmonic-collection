@@ -47,12 +47,6 @@ section:nth-child(6) { background-color: var(--orange); }
 
 
 
-/* aside, section, nav, footer, header */
-
-
-
-
-
 /* TREATMENTS */
 
 h1 { font-size: calc(var(--font-size) * 1.5);
