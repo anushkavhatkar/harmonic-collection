@@ -34,7 +34,10 @@
 /* STRUCTURE + CONTENT */
 /* aside, section, nav, footer, header */
 
-body { background-color: var(--off-white); }
+body { background-color: var(--off-white); 
+       display: flex; 
+       flex-direction: column; 
+       flex-wrap: wrap; }
 
 aside { padding: var(--spacing); }
 
@@ -72,6 +75,8 @@ figcaption { font-family: adobe-caslon-pro, serif;
 .border-off-white { border-color: var(--off-white); }
 .border-orange { border-color: var(--orange); }
 .border-lime { border-color: var(--lime); }
+
+
 
 
 
