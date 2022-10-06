@@ -12,7 +12,7 @@
 @media (min-width: 390px) {
 :root { 
     --font-size: 20px;
-    --spacing: 15px; 
+    --spacing: calc(var(--spacing) * 1.6); 
     } 
 }
 
