@@ -56,8 +56,12 @@
             align-items: center; 
             background-color: var(--orange); } }
 
+    .eight { display: flex;
+             flex-direction: row; 
+             flex-wrap: wrap;
+            justify-content: center; }
 
-
+    .imageslides { max-width: 240px; }
 
 
     @media (max-width: 1000px)
@@ -101,8 +105,7 @@ img { border-width: 2px;
     border-style: dashed; 
     margin-right: var(--spacing); 
     margin-top: var(--spacing);
-    margin-bottom: 0;
-    max-width: 360px;  }
+    margin-bottom: 0; }
 
 figure { max-width: 360px; }
 
@@ -147,7 +150,7 @@ figcaption { font-family: adobe-caslon-pro, serif;
 .orangebg { background-color: var(--orange); }
 .offwhitebg { background-color: var(--off-white); }
 
-
+.imageslides { max-width: 140px; }
 
 
 
