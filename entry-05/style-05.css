@@ -11,6 +11,7 @@
     
 }
 
+
 @media (min-width: 395px) 
 { :root { 
     --font-size: 20px;
@@ -36,19 +37,31 @@
 
     .three { display: flex; 
              flex-direction: column; 
+             background-color: var(--lime);
+             justify-content: center;
+             align-items: center;
+            }
+    
+    .seven { display: flex;
+            flex-direction: row
             }
 
-
-    .four { display: flex; 
+    .five { display: flex; 
         flex-direction: column;
-        align-items: center; }
+        align-items: center;
+        background-color: var(--purple); }
 
-    .five { display: flex;
+    .six { display: flex;
             flex-direction: column;
-            align-items: center; } }
+            align-items: center; 
+            background-color: var(--orange); } }
 
 
 
+
+
+    @media (max-width: 1000px)
+    { .four { display: none; } }
 
 
 /* FONTS */
@@ -78,9 +91,11 @@ section { padding: var(--margins) var(--spacing) var(--margins) var(--spacing);
 
 
 section:nth-child(3) { background-color: var(--purple); }
-section:nth-child(4) { background-color: var(--lime); }
-section:nth-child(5) { background-color: var(--purple); }
-section:nth-child(6) { background-color: var(--orange); }
+
+/*section:nth-child(4) { background-color: var(--lime); }
+section:nth-child(5) {background-color: var(--off-white); }
+section:nth-child(6) { background-color: var(--purple); }
+section:nth-child(7) { background-color: var(--orange); }*/
 
 img { border-width: 2px; 
     border-style: dashed; 
@@ -127,6 +142,10 @@ figcaption { font-family: adobe-caslon-pro, serif;
 .border-orange { border-color: var(--orange); }
 .border-lime { border-color: var(--lime); }
 
+.limebg { background-color: var(--lime); }
+.purplebg { background-color: var(--purple); }
+.orangebg { background-color: var(--orange); }
+.offwhitebg { background-color: var(--off-white); }
 
 
 
