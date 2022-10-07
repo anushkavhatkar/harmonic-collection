@@ -55,16 +55,20 @@ section:nth-child(6) { background-color: var(--orange); }
 
 img { border-width: 2px; 
     border-style: dashed; 
-    margin: var(--spacing); 
+    margin-right: var(--spacing); 
+    margin-top: var(--spacing);
     margin-bottom: 0;
     max-width: 360px;  }
 
 
 
-span { font-family: adobe-caslon-pro, serif;
-        font-weight: 400;
-        font-style: italic; 
-        font-size: var(--fig-caption); }
+span { color: var(--purple); }
+
+div { padding: var(--margins) var(--spacing) var(--margins) var(--spacing); }
+
+a:hover { text-decoration: underline; }
+
+
 
 
 /* TREATMENTS */
@@ -75,7 +79,7 @@ h1 { font-size: calc(var(--font-size) * 1.5);
     padding: var(--spacing); }
 
 p { font-family: 'Karrik-Regular'; 
-    max-width: 40ch; }
+    max-width: 45ch; }
 
 figcaption { font-family: adobe-caslon-pro, serif;
     font-weight: 400;
