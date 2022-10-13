@@ -1,2 +1,9 @@
+:root { 
+    --offwhite: #EAEAE4;
+    --red: #FC010A; 
+    --lightblue: #A5C8D1; 
+    --green: #B4DA69; 
+    --fuchsia: #E25BC1;
+    --purple: #CE96C9; }
 
 body { background-color: #EAEAE4;}
