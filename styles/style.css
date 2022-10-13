@@ -12,3 +12,18 @@
         src: url(../fonts/cardinalphoto-mediumitalic-TRIAL.otf) format('opentype'); }
 
 
+body {
+    background-color: var(--offwhite);
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+    grid-template-rows: 250px repeat(auto-fill, 250px 50px); 
+
+    grid-template-areas: 
+    " .     collectiontitle     ."
+    " .     entry01             ."
+    " .     entry02             ."
+    " .     entry03             ."
+    " .     entry04             ."
+    " .     entry05             .";
+
+}
