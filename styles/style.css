@@ -27,3 +27,16 @@ body {
     " .     entry05             .";
 
 }
+ 
+div:first-child { 
+    grid-area: collectiontitle;
+}
+
+
+h1 { 
+    font-family: "Cardinal-Photo-Medium-Italic";
+    font-size: 60px;
+    line-height: 100%;
+    align-items: center; 
+}
+
