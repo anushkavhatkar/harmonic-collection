@@ -23,12 +23,17 @@
 
 /* MEDIA QUERIES */ 
 
-@media (min-width: 395px)
+@media (min-width: 750px)
 { 
     main {
-        display:flex;
+        display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    div { 
+        min-width: 390px;
+        
     }
 }
 
@@ -38,6 +43,10 @@
 
 
 /* SET UP */
+
+body {
+    background-color: var(--offwhite);
+}
 
 nav {
     width: 100%;
@@ -52,28 +61,28 @@ main {
 }
 
 div { 
-    min-width: 100vw;
-    min-height: 390px;
+    width: 100vw;
+    min-height: 390px; 
     border: var(--black) solid 1px;
 }
 
 .entry01 {
-    color: var(--red);
+    background-color: var(--red);
 }
 
 .entry02 {
-    color: var(--lightblue);
+    background-color: var(--lightblue);
 }
 
 .entry03 {
-    color: var(--green);
+    background-color: var(--green);
 }
 
 .entry04 {
-    color: var(--fuchsia);
+    background-color: var(--fuchsia);
 }
 
 .entry05 {
-    color: var(--purple);
+    background-color: var(--purple);
 }
 
