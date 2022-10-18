@@ -76,6 +76,9 @@
     left:350px;
 }
 
-.foot {
-    background-color: #FFFAFA; 
+
+.nav { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
