@@ -50,3 +50,10 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+div { 
+    min-width: 100vw;
+    min-height: 390px;
+    border: var(--black) solid 1px;
+}
+}
