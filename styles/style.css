@@ -56,4 +56,23 @@ div {
     min-height: 390px;
     border: var(--black) solid 1px;
 }
+
+.entry01 {
+    color: var(--red);
+}
+
+.entry02 {
+    color: var(--lightblue);
+}
+
+.entry03 {
+    color: var(--green);
+}
+
+.entry04 {
+    color: var(--fuchsia);
+}
+
+.entry05 {
+    color: var(--purple);
 }
