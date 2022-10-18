@@ -1,0 +1,126 @@
+:root { 
+    --offwhite: #EAEAE4;
+    --red: #FC010A; 
+    --lightblue: #A5C8D1; 
+    --green: #B4DA69; 
+    --fuchsia: #E25BC1;
+    --purple: #CE96C9; 
+    --black: #000000; }
+
+
+@font-face {
+        font-family: "Cardinal-Photo-Medium-Italic";
+        src: url(../fonts/cardinalphoto-mediumitalic-TRIAL.otf) format('opentype'); }
+
+
+/* GRID SETUP */
+
+body {
+    background-color: var(--offwhite);
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+    grid-template-rows: 250px repeat(11, 250px 50px); 
+
+    grid-template-areas: 
+    " .     collectiontitle     ."
+    " .     entry01             ."
+    " .     .                   ."
+    " .     entry02             ."
+    " .     .                   ."
+    " .     entry03             ."
+    " .     .                   ."
+    " .     entry04             ."
+    " .     .                   ."
+    " .     entry05             ."
+    " .     .                   ."
+    " .     entry06             ."
+    " .     .                   ."
+    " .     entry07             ."
+    " .     .                   ."    
+    " .     entry08             ."
+    " .     .                   ."
+    " .     entry09             ."
+    " .     .                   ."
+    " .     entry10             ."
+    " .     .                   ." 
+    " .     entry11             ."
+    " .     .                   ."   
+}
+ 
+div { 
+    border: 0.5px var(--black) solid;
+}
+
+div:nth-child(1) { 
+    grid-area: collectiontitle;
+}
+
+.entry-01 { 
+    grid-area: entry01;
+    background-color: var(--red);
+}
+
+.entry-02 {
+    grid-area: entry02;
+    background: var(--lightblue);
+}
+
+
+
+.entry-03 {
+    grid-area: entry03;
+    background-color: var(--green);
+}
+
+.entry-04 {
+    grid-area: entry04;
+    background-color: var(--fuchsia);
+}
+
+.entry-05 {
+    grid-area: entry05;
+    background-color: var(--purple);
+}
+
+.entry-06 { 
+    grid-area: entry06;
+    background-color: var(--offwhite);
+}
+
+.entry-07 { 
+    grid-area: entry07;
+    background-color: var(--offwhite);
+}
+
+.entry-08 { 
+    grid-area: entry08;
+    background-color: var(--offwhite);
+}
+
+.entry-09 { 
+    grid-area: entry09;
+    background-color: var(--offwhite);
+}
+
+.entry-10 {
+    grid-area: entry10;
+    background-color: var(--offwhite);
+}
+
+.entry-11 { 
+    grid-area: entry11;
+    background-color: var(--offwhite);
+}
+
+
+/* STYLE TREATMENTS */
+
+h1 { 
+    font-family: "Cardinal-Photo-Medium-Italic";
+    font-size: 60px;
+    line-height: 100%;
+    align-items: center; 
+}
+
+a { display: block; }
+
