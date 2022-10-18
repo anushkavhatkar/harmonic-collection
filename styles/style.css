@@ -7,3 +7,17 @@
     --purple: #CE96C9; 
     --black: #000000; }
 
+
+/* FONTS */
+
+@font-face { font-family: "Karrik-Regular";
+    src: url(../fonts/Karrik-Regular.otf) format('opentype'); }
+
+
+
+
+
+
+
+
+
