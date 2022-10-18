@@ -94,3 +94,9 @@ span {
 
 
 
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3em;
+}
