@@ -1,12 +1,89 @@
 :root {
-    --font-family: 'Helvetica';
+    --font-family: 'Helvetica-Bold';
     --font-size: 20px;
     --pale-yellow: #FEF8DF; 
     --blue: #458EF7; 
+    --vermillion: #ED6D52; 
+    --black: #000;
+    --letter-spacing: -0.017em;
+    --title: 30px;
+}
+
+/* FONTS */
+
+@font-face { font-family: "Helvetica-Bold";
+    src: url(../fonts/Helvetica-Bold.ttf) format('truetype'); }
+
+
+
+
+/* DEFAULT STYLES */
+
+body {
+    background-color: var(--pale-yellow);
+}
+
+div { 
+    margin-top: 3em;
 }
 
 p { font-family: var(--font-family);
-    font-size: var(--font-size); 
-    color: var(--blue); }
+    font-size: var(--font-size);
+    letter-spacing: var(--letter-spacing);
+    color: var(--blue);
+    padding: 0.5em; }
 
-    
+
+img { margin-left: 0.5em; 
+     max-height: 260px; }
+
+
+      
+
+
+
+ /* CLASSES */
+
+.border { 
+    border-left: 2px var(--blue) solid;
+}
+
+.image-border { 
+    border: 2.75px dashed var(--vermillion);
+}
+
+.wrapper { 
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.title { 
+    color: var(--black);
+    font-size: var(--title);
+    padding: 0.5em;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 395px) {
+    p {
+        font-size: calc((var(--font-size))*1.2);
+    }
+
+    img { max-height: 500px; }
+
+    div { margin-top: 4em; }
+
+    .title { font-size: calc((var(--title))*1.2); }
+}
+
+@media (min-width: 768px) {
+    div { margin-top: 6em; }
+
+    .wrapper { 
+        margin: 0 auto;
+        width: 50vw;
+    }
+
+    .title { font-size: calc((var(--title))*1.4); }
+}
