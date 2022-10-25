@@ -57,7 +57,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
-    width: 90vw;
+    width: 95vw;
     margin-top: 4em;
 }
 
@@ -79,7 +79,7 @@ nav {
 .title { 
     color: var(--black);
     font-size: var(--title);
-    padding: 0.5em;
+    padding: 0.25em;
 }
 
 
