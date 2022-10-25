@@ -136,7 +136,8 @@ figcaption { font-family: adobe-caslon-pro, serif;
     font-size: var(--fig-caption); 
     margin-top: 0; 
     margin-bottom: var(--spacing);
-    line-height: 120%; }
+    line-height: 120%;
+    margin-top: -10px; }
 
 
 

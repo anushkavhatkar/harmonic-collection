@@ -7,6 +7,7 @@
     --black: #000;
     --letter-spacing: -0.017em;
     --title: 30px;
+    --fig-caption: 14px;
 }
 
 /* FONTS */
@@ -34,13 +35,31 @@ p { font-family: var(--font-family);
     padding: 0.5em; }
 
 
-img { margin-left: 0.5em; 
-     max-height: 260px; }
+img { max-height: 260px; }
 
-
+figure { margin-left: 0.5em; }
       
 
+figcaption { 
+    font-size: var(--fig-caption);
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%; 
+    color: var(--black);
+    letter-spacing: normal;
+    margin-top: -0.1em;
+}
 
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90vw;
+    margin-top: 4em;
+}
 
  /* CLASSES */
 
@@ -63,6 +82,15 @@ img { margin-left: 0.5em;
     padding: 0.5em;
 }
 
+
+.italic { 
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+
 /* MEDIA QUERIES */
 
 @media (min-width: 395px) {
@@ -84,6 +112,11 @@ img { margin-left: 0.5em;
 @media (min-width: 768px) {
     div { margin-top: 6em; }
 
+
+    nav {
+        margin-top: 6em;
+    }
+
     .wrapper { 
         margin: 0 auto;
         width: 50vw;
@@ -93,5 +126,16 @@ img { margin-left: 0.5em;
 
     .image-border { 
         border-width: 3.5px;
+    }
+
+    figcaption { 
+        font-size: calc((var(--fig-caption))*1.2);
+        font-family: adobe-caslon-pro, serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 120%; 
+        color: var(--black);
+        letter-spacing: normal;
+        margin-top: -0.1em;
     }
 }
