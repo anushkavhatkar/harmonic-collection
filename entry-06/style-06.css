@@ -61,6 +61,10 @@ nav {
     margin-top: 4em;
 }
 
+
+a:hover { text-decoration: underline dashed var(--blue); }
+
+
  /* CLASSES */
 
 .border { 
