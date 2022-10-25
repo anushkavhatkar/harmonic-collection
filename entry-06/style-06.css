@@ -75,6 +75,10 @@ img { margin-left: 0.5em;
     div { margin-top: 4em; }
 
     .title { font-size: calc((var(--title))*1.2); }
+
+    .image-border { 
+        border-width: 3px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -86,4 +90,8 @@ img { margin-left: 0.5em;
     }
 
     .title { font-size: calc((var(--title))*1.4); }
+
+    .image-border { 
+        border-width: 3.5px;
+    }
 }
