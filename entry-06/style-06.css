@@ -1,0 +1,12 @@
+:root {
+    --font-family: 'Helvetica';
+    --font-size: 20px;
+    --pale-yellow: #FEF8DF; 
+    --blue: #458EF7; 
+}
+
+p { font-family: var(--font-family);
+    font-size: var(--font-size); 
+    color: var(--blue); }
+
+    
