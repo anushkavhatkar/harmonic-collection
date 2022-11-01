@@ -1,0 +1,107 @@
+:root {
+    --font-family: 'Helvetica-Bold';
+    --font-size: 20px;
+    --letter-spacing: -0.017em;        
+    --pale-yellow: #FEF8DF; 
+    --ochre: #E9D374; 
+    --fuchsia: #CC76D1; 
+    --black: #000;
+}
+
+
+
+
+
+/* FONTS */
+
+@font-face { font-family: "Helvetica-Bold";
+    src: url(../fonts/Helvetica-Bold.ttf) format('truetype'); }
+
+
+
+
+
+
+/*LAYOUT STYLES */
+
+
+
+
+
+/* DEFAULT STYLES */
+
+body {
+    background-color: var(--pale-yellow);
+}
+
+
+p { font-family: var(--font-family);
+    font-size: var(--font-size);
+    letter-spacing: var(--letter-spacing);
+    color: var(--black);
+    padding: 0.5em; } 
+
+
+figure { margin-left: 0.5em; }
+
+figcaption { 
+    font-size: var(--fig-caption);
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%; 
+    color: var(--black);
+    letter-spacing: normal;
+    margin-top: -0.1em;
+}
+
+
+
+/* CLASSES */
+
+.border { 
+    border-left: 2px var(--black) solid;
+}
+
+.image-border { 
+    border: 2.75px dashed var(--fuchsia);
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 395px) {
+    p {
+        font-size: calc((var(--font-size))*1.2);
+    }
+
+    .image-border { 
+        border-width: 3px;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    .image-border { 
+        border-width: 3.5px;
+    }
+
+    figcaption { 
+        font-size: calc((var(--fig-caption))*1.2);
+        font-family: adobe-caslon-pro, serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 120%; 
+        color: var(--black);
+        letter-spacing: normal;
+        margin-top: -0.1em;
+    }
+
+
+}
