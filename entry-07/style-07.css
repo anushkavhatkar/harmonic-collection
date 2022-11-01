@@ -1,11 +1,13 @@
-:root {
-    --font-family: 'Helvetica-Bold';
-    --font-size: 20px;
-    --letter-spacing: -0.017em;        
+:root {   
     --pale-yellow: #FEF8DF; 
     --ochre: #E9D374; 
     --fuchsia: #CC76D1; 
     --black: #000;
+    --font-family: 'Helvetica-Bold';
+    --font-size: 20px;
+    --letter-spacing: -0.017em;   
+    --padding: 3em; 
+    --fig-caption: 14px;
 }
 
 
@@ -24,7 +26,21 @@
 
 /*LAYOUT STYLES */
 
+nav {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+    background-color: var(--pale-yellow);
+    border-radius: 12px;
+    border: var(--ochre) solid;
+    position: fixed;
+    margin-top: -2em;
 
+    /* width: 95vw;
+    margin-top: 4em; */
+}
 
 
 
@@ -32,6 +48,17 @@
 
 body {
     background-color: var(--pale-yellow);
+    
+}
+
+main { 
+    margin-top: 2em;
+}
+
+div {
+    border-left: 2px var(--black) solid;
+    margin: 0 auto;
+    width: 80vw;
 }
 
 
@@ -55,17 +82,54 @@ figcaption {
     margin-top: -0.1em;
 }
 
+section {
+    border-radius: 20px;
+    padding: var(--padding);
+}
+
+section:nth-child(3), section:nth-child(6) {
+    background-color: var(--ochre);
+    border-radius: 20px;
+}
+
+section:nth-child(3) {
+    padding: 4.5em 3em 1.5em 3em;
+}
 
 
 /* CLASSES */
 
-.border { 
-    border-left: 2px var(--black) solid;
-}
+
 
 .image-border { 
     border: 2.75px dashed var(--fuchsia);
 }
+
+.italic { 
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.outline {
+    border: var(--black) 1.5px solid;
+    border-radius: 20px;
+}
+
+.nav {
+    font-size: calc((var(--fig-caption))*1.2);
+}
+
+
+/* .border { border-left: 2px var(--black) solid; } */
+
+/* .wrapper { 
+    margin: 0 auto;
+    width: 85vw; } ADDED BORDER + WRAPPER TO DIV */
+
+
+
+
 
 
 
@@ -76,10 +140,19 @@ figcaption {
         font-size: calc((var(--font-size))*1.2);
     }
 
+    section {
+        padding: 4em;
+    }
+
+    section:nth-child(3) {
+        padding: calc((var(--padding))*1.33);
+    }
+
     .image-border { 
         border-width: 3px;
     }
 
+    
 
 }
 
@@ -88,8 +161,23 @@ figcaption {
 
 @media (min-width: 768px) {
 
+
+    div { 
+        margin: 0 auto;
+        width: 50vw;
+    }
+
     .image-border { 
         border-width: 3.5px;
+    }
+
+    section {
+        border-radius: 25px;
+        padding: calc((var(--padding))*2);
+    }
+
+    section:nth-child(3) {
+        padding: 6em;
     }
 
     figcaption { 
