@@ -32,7 +32,7 @@ p { font-family: var(--font-family);
     font-size: var(--font-size);
     letter-spacing: var(--letter-spacing);
     color: var(--blue);
-    padding: 0.5em; }
+    padding: 0.5em; } 
 
 
 img { max-height: 260px; }
