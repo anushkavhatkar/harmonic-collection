@@ -1,14 +1,25 @@
 :root { 
-    --offwhite: #F1F1ED;
+    /* --offwhite: #F1F1ED; */
     --pale-yellow: #FEF8DF; 
-    --red: #FC010A; 
-    --lightblue: #A5C8D1; 
-    --green: #B4DA69; 
-    --fuchsia: #E25BC1;
-    --purple: #CE96C9; 
+    /* --red: #FC010A;  */
+    /* --lightblue: #A5C8D1;  */
+    /* --green: #B4DA69;  */
+    /* --fuchsia: #E25BC1; */
+    /* --purple: #CE96C9; 
     --blue: #458EF7; 
-    --ochre: #E9D374;
+    --ochre: #E9D374; */
     --black: #000000;
+    --aquamarine: aquamarine; 
+
+    --red: #FD3D01; 
+    --lightblue: #6FA7AD ;
+    --green: #AEB847; 
+    --fuchsia: #D16ABC; 
+    --purple: #D8ADC1;
+    --blue: #5880DE; 
+    --ochre: #C3A569; 
+    
+
 
     --helvetica: 'Helvetica-Bold';
     --font-size: 16px;
@@ -68,7 +79,10 @@ a {
     flex-direction: column;
     justify-content: end;
     padding: var(--padding);
+
+
 }
+
 
 main a { aspect-ratio: 1; }
 
@@ -79,6 +93,18 @@ div { display: flex; }
 
 
 /* CLASSES / SELECTORS */
+
+
+
+a { 
+    transition: all 0.5s ease-out;
+    transition-property: background-color;
+
+}
+
+a:hover, a:focus {
+    background-color: aquamarine;
+}
 
 
 a:nth-child(1) { background-color: var(--red); }
