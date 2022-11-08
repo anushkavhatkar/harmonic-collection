@@ -138,9 +138,9 @@ border-radius: 5px;
 
 
 /* ALIGN TO COLOR NAME (GREENS) */
-article:nth-child(2), article:nth-child(4)  {
+/* article:nth-child(2), article:nth-child(4)  {
     margin-top: -1em;
-}
+} */
 
 section:nth-child(2), section:nth-child(3) {
     margin-top: calc(var(--padding)*1.5);
@@ -156,7 +156,67 @@ section:nth-child(2), section:nth-child(3) {
 .cool-red { background-color: var(--cool-red); }
 .warm-red { background-color: var(--warm-red); }
 
+.bright-green { background-color: lawngreen;}
+.murky-green { background-color: darkseagreen; }
 
+
+
+
+
+/* ANIMATIONS */
+
+
+.bright-green {
+    background-color: yellow;
+    transition-duration: 3s, 0.5s;
+	transition-property: background-color, transform;
+	transition-timing-function: linear, ease-in-out;
+	will-change: transform;
+}
+
+.bright-green:hover { 
+    background-color: var(--cool-blue);
+    transform: scale(105%);
+}
+
+.murky-green {
+    background-color: yellow;
+    transition-duration: 3s, 0.5s;
+	transition-property: background-color, transform;
+	transition-timing-function: linear, ease-in-out;
+	will-change: transform;
+}
+
+.murky-green:hover { 
+    background-color: var(--warm-blue);
+    transform: scale(105%);
+}
+
+.dull-orange { 
+    background-color: yellow;
+    transition-duration: 3s, 0.5s;
+	transition-property: background-color, transform;
+	transition-timing-function: linear, ease-in-out;
+	will-change: transform;
+}
+
+.dull-orange:hover {
+    background-color: var(--cool-red);
+    transform: scale(105%);
+}
+
+.bright-orange {
+    background-color: yellow;
+    transition-duration: 3s, 0.5s;
+	transition-property: background-color, transform;
+	transition-timing-function: linear, ease-in-out;
+	will-change: transform;
+}
+
+.bright-orange:hover { 
+    background-color: var(--warm-red);
+    transform: scale(105%);
+}
 
 /* MEDIA QUERIES */
 
