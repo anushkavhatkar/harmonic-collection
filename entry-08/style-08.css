@@ -34,9 +34,32 @@
 
 
 
-/* DEFAULT STYLES */
+/* SETUP STYLES */
 
 
+p { font-family: var(--font-family);
+    font-size: var(--font-size);
+    letter-spacing: var(--letter-spacing);
+    color: var(--black);
+} 
+
+
+span { 
+    font-size: var(--fig-caption);
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 120%; 
+    color: var(--black);
+    letter-spacing: normal;
+    margin-top: 1em;
+}
+
+
+
+
+
+/* LAYOUT STYLES  */
 
 
 body {
@@ -49,18 +72,14 @@ body {
 nav { 
     border-bottom: 0.1em var(--pale-yellow) dashed;
     width: 100vw;
-
+    position: fixed;
+    margin-top: -6em;
+    background-color: var(--green);
 
 }
 
 
-p { font-family: var(--font-family);
-    font-size: var(--font-size);
-    letter-spacing: var(--letter-spacing);
-    color: var(--black);
 
-
-} 
 
 main { 
     margin-top: calc(var(--padding)*2);
@@ -70,8 +89,11 @@ section:nth-child(1) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    width: 90vw;
+    margin: 0 auto;
 }
+
+
 
 article {
     background-color: var(--pale-yellow);
@@ -86,16 +108,7 @@ article {
 }
 
 
-span { 
-    font-size: var(--fig-caption);
-    font-family: adobe-caslon-pro, serif;
-    font-weight: 400;
-    font-style: italic;
-    line-height: 120%; 
-    color: var(--black);
-    letter-spacing: normal;
-    margin-top: 1em;
-}
+
 
 
 
@@ -235,6 +248,11 @@ section:nth-child(2), section:nth-child(3) {
 
 
 @media (min-width: 768px) {
+
+
+nav { 
+    margin-top: -8em;
+}
 
 article { 
     padding: 2em;
