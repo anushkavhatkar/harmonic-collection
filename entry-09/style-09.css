@@ -127,6 +127,10 @@ button {
     font-size: var(--font-size);
     letter-spacing: var(--letter-spacing);
     color: var(--black);
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-property: transform;
+    will-change: transform;
 }
 
 
@@ -137,7 +141,7 @@ button {
 /* before */
 .warm-red {
     background-color: var(--warm-red);
-    transition: all 1.5s ease-in-out; 
+    transition: all 1.2s ease-in; 
 	will-change: transform; 
 }
 
@@ -149,9 +153,10 @@ button {
 
 .warm-yellow {
     background-color: var(--warm-yellow);
-    transition: all 1.5s ease-in-out; 
+    transition: all 1.5s ease; 
 	will-change: transform; 
 }
+
 
 /* after */
 .cool-red {
@@ -168,6 +173,7 @@ button {
     background-color: var(--cool-yellow);
     transform: rotate(-15deg);
 }
+
 
 
 
