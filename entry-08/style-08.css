@@ -75,7 +75,7 @@ nav {
     position: fixed;
     margin-top: -6em;
     background-color: var(--green);
-
+    z-index: 1;
 }
 
 

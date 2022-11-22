@@ -8,6 +8,12 @@
     --warm-blue: #0000FF;
     --cool-red: #E20D40;
     --warm-red: #FF0000;
+    --cool-green: teal;
+    --warm-green: yellowgreen;
+    --cool-purple: darkorchid;
+    --warm-purple:purple;
+    --cool-orange: coral ;
+    --warm-orange: darkorange;
 
 
 
@@ -60,6 +66,8 @@ nav {
     border-bottom: 0.1em var(--blue) dashed;
     width: 100vw;
     background-color: var(--pale-yellow);
+    position: fixed;
+    z-index: 1;
 
 }
 
@@ -78,7 +86,7 @@ article {
     margin-top: calc((var(--padding))/2);
 }
 
-section:nth-child(1) { 
+section { 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -127,10 +135,11 @@ button {
     font-size: var(--font-size);
     letter-spacing: var(--letter-spacing);
     color: var(--black);
-    transition-duration: 1s;
+    /* transition-duration: 1s;
     transition-timing-function: linear;
     transition-property: transform;
-    will-change: transform;
+    will-change: transform; */
+    cursor: pointer;
 }
 
 
@@ -139,41 +148,74 @@ button {
 /* ANIMATIONS */
 
 /* before */
-.warm-red {
+.red {
     background-color: var(--warm-red);
     transition: all 1.2s ease-in; 
 	will-change: transform; 
 }
 
-.cool-blue {
+.blue {
     background-color: var(--blue);
-    transition: all 1.5s ease-in-out; 
+    transition: all 1.5s ease-out; 
 	will-change: transform; 
 }
 
-.warm-yellow {
+.yellow {
     background-color: var(--warm-yellow);
     transition: all 1.5s ease; 
 	will-change: transform; 
 }
 
+.green {
+    background-color: var(--cool-green);
+    transition: all 1.5s ease; 
+	will-change: transform; 
+}
+
+.purple {
+    background-color: var(--cool-purple);
+    transition: all 1.5s ease; 
+	will-change: transform; 
+}
+
+.orange {
+    background-color: var(--warm-orange);
+    transition: all 1.5s ease-in-out; 
+	will-change: transform; 
+}
+
+
 
 /* after */
-.cool-red {
+.red-change {
     background-color: var(--cool-red);
 	transform: rotate(90deg);
 }
 
-.warm-blue {
+.blue-change {
     background-color: var(--warm-blue);
-	transform: rotate(10deg);
+	transform: rotate(180deg);
 }
 
-.cool-yellow {
+.yellow-change {
     background-color: var(--cool-yellow);
     transform: rotate(-15deg);
 }
 
+.green-change {
+    background-color: var(--warm-green);
+    transform: rotate(10deg);
+}
+
+.purple-change {
+    background-color: var(--warm-purple);
+    transform: rotate(-15deg);
+}
+
+.orange-change {
+    background-color: var(--cool-orange);
+    transform: rotate(10deg);
+}
 
 
 
@@ -190,9 +232,12 @@ button {
         width: 100vw;
     }
 
-    section:nth-child(1) {
+    section {
         width: 50vw;
         margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
 }
@@ -204,8 +249,8 @@ button {
         grid-template-columns: repeat(var(--desktop), 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-template-areas: 
-        "red    .           yellow"
-        ".          blue     .";
+        "red    green           yellow"
+        "purple          blue     orange";
     }
 
     div { 
@@ -215,9 +260,12 @@ button {
         margin-bottom: 0.5em;
     }
 
-    section:nth-child(1) {
+    section {
         width: 50vw;
         margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     article { 
@@ -225,10 +273,13 @@ button {
     }
 
     article:nth-child(1) { grid-area: red; }
-    article:nth-child(2) { grid-area: blue; }
+    article:nth-child(2) { grid-area: green; }
     article:nth-child(3) { grid-area: yellow; }
+    article:nth-child(4) { grid-area: purple; }
+    article:nth-child(5) { grid-area: blue; }
+    article:nth-child(6) { grid-area: orange; }
 
     article > p {
-        border-radius: 0.4em;
+        border-radius: 1em;
     }
 }
